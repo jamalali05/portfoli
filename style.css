@@ -385,7 +385,7 @@ section .title::after {
 
 /* teams section styling */
 .teams .title::after {
-  content: "what i have done";
+  content: "what i completed";
 }
 .teams .carousel .card {
   background: #222;
@@ -542,24 +542,24 @@ section .title::after {
   background: none;
 }
 .social {
-  color: white;
+  color: #f1f1f1;
   display: block;
-  width: 110px !important;
-  height: 37px;
+  width: 115px !important;
+  height: 38px;
   outline: none;
   font-size: 14px;
   font-weight: 500;
   border-radius: 5px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: red;
+  background: crimson;
   border: 2px solid crimson;
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
 }
-/* .social button:hover {
+.social:hover {
   color: crimson;
   background: none;
-} */
+}
 
 /* footer section styling */
 
